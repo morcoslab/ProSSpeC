@@ -7,6 +7,6 @@ NIa Protease specificity modeling where Direct Coupling Analysis (DCA) is used t
 **specificity.m** is used to construct the Hamiltonian specificity. 
 
 ## To cite:
-Identification and engineering of highly active Potyviral proteases using co-evolutionary models
+Identification and engineering of highly active Potyviral proteases using co-evolutionary models.
 Medel B. Lim Suan Jr., Cheyenne Ziegler, Zain Syed, Ajay Tunikipati, Rodrigo Raposo, Jaimahesh Nagineni,
 Jaideep Kaur, Faruck Morcos, and P. C. Dave P. Dingal
