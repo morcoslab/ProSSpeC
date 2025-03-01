@@ -1,3 +1,4 @@
+![ProSSpeC logo. Shows a pickaxe made of DNA hitting an enzyme-substrate complex, where the substrate is colored gold.](https://github.com/morcoslab/ProSSpeC/img/ProSSpeC_logo.png)
 # ProSSpeC - Protease Substrate Specificity Calculator
 NIa Protease specificity modeling where Direct Coupling Analysis (DCA) is used to learn couplings and local fields, which are then used to calculate the Hamiltonian specificity between proteases and substrates. An associated web app to run these calculations is available on [http://www.coevolutionary.org/prosspec](http://www.coevolutionary.org/prosspec/). 
 
