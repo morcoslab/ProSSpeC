@@ -6,7 +6,8 @@ NIa Protease specificity modeling where Direct Coupling Analysis (DCA) is used t
 
 **dca.m** is used to calculate direct information (DI) values \
 **DCAparameters.m** is used to calculate the local fields (h<sub>i</sub>) and couplings (e<sub>ij</sub>) \
-**FastaHamiltonianTARGET.m** is used to calculate the raw Hamiltonian values. \
+**FastaHamiltonianT.m** is used to calculate the raw Hamiltonian values. \
+**FastaHamiltonianTARGET.m** is used to calculate the raw Hamiltonian values for masked sequences. \
 **specificity.m** is used to construct the Hamiltonian specificity. 
 
 ## To run:
@@ -15,7 +16,11 @@ Download DCA.zip files from 10.5281/zenodo.15039890 \
 Run specificy.m using the unzipped parameters from DCA.zip on a protein sequence fasta. \
 The protein sequence fasta must be first aligned to the protease and substrates. Use HMMER and the files from HMM.zip in Zenodo to perform the alignments. The concatenate the protease and substrate (in that order).
 
-### Note: We recommend using the webserver as it performs the alignments and calculations for you.
+**Note: We recommend using the webserver as it performs the alignments and calculations for you.**
+## Demo:
+```
+matlab 
+```
 
 ## To cite:
 Identification and engineering of highly active Potyviral proteases using co-evolutionary models.
