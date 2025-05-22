@@ -10,7 +10,7 @@ NIa Protease specificity modeling where Direct Coupling Analysis (DCA) is used t
 **specificity.m** is used to construct the Hamiltonian specificity. 
 
 ## To run:
-Install Matlab (test on 2024a) and HMMER (v3.4). \
+Install Matlab (test on 2024a) and HMMER (v3.4). (Takes less than 10 minutes) \
 Download DCA.zip files from 10.5281/zenodo.15039890 \
 Run specificy.m using the unzipped parameters from DCA.zip on a protein sequence fasta. \
 The protein sequence fasta must be first aligned to the protease and substrates. Use HMMER and the files from HMM.zip in Zenodo to perform the alignments. The concatenate the protease and substrate (in that order).
