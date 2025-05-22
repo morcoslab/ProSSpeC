@@ -18,8 +18,15 @@ The protein sequence fasta must be first aligned to the protease and substrates.
 
 **Note: We recommend using the webserver as it performs the alignments and calculations for you.**
 ## Demo:
+1) Download files from Zenodo \
+2) Unzip DCA.zip and move parameter files into \demo \
 ```
-matlab 
+unzip DCA.zip
+mv *.mat ProSSpec/demo
+```
+3) Run via matlab from command line
+```
+matlab -nodisplay -nosplash -r "cd('matlab scripts'); disp(specificity('../demo/demo.fasta', '../demo/concatenated_sequences_DCAparams.mat', '../demo/scrambled_sequences_DCAparams.mat')); exit"
 ```
 
 ## To cite:
