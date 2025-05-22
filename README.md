@@ -6,7 +6,7 @@ NIa Protease specificity modeling where Direct Coupling Analysis (DCA) is used t
 
 **dca.m** is used to calculate direct information (DI) values \
 **DCAparameters.m** is used to calculate the local fields (h<sub>i</sub>) and couplings (e<sub>ij</sub>) \
-**FastaHamiltonianT.m** is used to calculate the raw Hamiltonian values. \
+**FastaHamiltonian.m** is used to calculate the raw Hamiltonian values. \
 **FastaHamiltonianTARGET.m** is used to calculate the raw Hamiltonian values for masked sequences. \
 **specificity.m** is used to construct the Hamiltonian specificity. 
 
