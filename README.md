@@ -18,8 +18,8 @@ The protein sequence fasta must be first aligned to the protease and substrates.
 
 **Note: We recommend using the webserver as it performs the alignments and calculations for you.**
 ## Demo:
-1) Download files from Zenodo \
-2) Unzip DCA.zip and move parameter files into \demo \
+1) Download files from Zenodo 
+2) Unzip DCA.zip and move parameter files into \demo 
 ```
 unzip DCA.zip
 mv *.mat ProSSpec/demo
