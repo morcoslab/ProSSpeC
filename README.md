@@ -9,6 +9,11 @@ NIa Protease specificity modeling where Direct Coupling Analysis (DCA) is used t
 **FastaHamiltonianTARGET.m** is used to calculate the raw Hamiltonian values. \
 **specificity.m** is used to construct the Hamiltonian specificity. 
 
+## To run:
+Download DCA.zip files from 10.5281/zenodo.15039890
+Run specificy.m using the unzipped parameters from DCA.zip on a protein sequence fasta.
+The protein sequence fasta must be aligned to the protease and substrates: we recommend using the webserver as it performs these alignments for you.
+
 ## To cite:
 Identification and engineering of highly active Potyviral proteases using co-evolutionary models.
 Medel B. Lim Suan Jr., Cheyenne Ziegler, Zain Syed, Ajay Tunikipati, Rodrigo Raposo, Jaimahesh Nagineni,
