@@ -24,10 +24,17 @@ The protein sequence fasta must be first aligned to the protease and substrates.
 unzip DCA.zip
 mv *.mat ProSSpec/demo
 ```
-3) Run via matlab from command line
+3) Run via matlab from command line. This demo is for Ryegrass mosaic virus.
 ```
 matlab -nodisplay -nosplash -r "cd('matlab scripts'); disp(specificity('../demo/demo.fasta', '../demo/concatenated_sequences_DCAparams.mat', '../demo/scrambled_sequences_DCAparams.mat')); exit"
 ```
+4) Compare to the expected output ( -493.9972 ).
+
+## Reproducability:
+1) Model can be retrained using the fastas in Zenodo DCA.zip folder and DCAparameters.m.
+2) Sequences can be retrieved via Uniprot and/or imported from Plasmids.zip and then aligned using hmmalign from HMMER and the provided hmm profiles in Zenodo HMM.zip.
+3) Once sequences are preprocessed, concatenate them with the protease sequence first, then substrate. Keep in fasta format.
+4) Rerun inference on these sequences and compare to the outputs in Zenodo Hamiltonians.xlsx.
 
 ## To cite:
 Identification and engineering of highly active Potyviral proteases using co-evolutionary models.
