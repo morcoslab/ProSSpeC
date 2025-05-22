@@ -12,7 +12,8 @@ NIa Protease specificity modeling where Direct Coupling Analysis (DCA) is used t
 ## To run:
 Download DCA.zip files from 10.5281/zenodo.15039890
 Run specificy.m using the unzipped parameters from DCA.zip on a protein sequence fasta.
-The protein sequence fasta must be aligned to the protease and substrates: we recommend using the webserver as it performs these alignments for you.
+The protein sequence fasta must be aligned to the protease and substrates. Use hmmer and the files from HMM.zip in Zenodo to perform the alignments. The concatenate the protease and substrate (in that order).
+We recommend using the webserver as it performs the alignments and calculations for you.
 
 ## To cite:
 Identification and engineering of highly active Potyviral proteases using co-evolutionary models.
